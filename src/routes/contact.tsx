@@ -5,11 +5,17 @@ export default function ContactPage() {
   return (
     <Layout>
       <Article
-        title="Contact"
-        imageAlt="Lorem Picsum"
+        title="Contact Us"
+        imageAlt="Email Icon"
         imageSrc="https://picsum.photos/420/640?grayscale"
       >
-        Add your contact information here.
+        <p className="text-lg font-medium mb-2">Reach out anytime:</p>
+        <a 
+          href="mailto:tryclausly@gmail.com" 
+          className="text-blue-600 hover:underline break-all"
+        >
+          tryclausly@gmail.com
+        </a>
       </Article>
     </Layout>
   )
